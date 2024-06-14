@@ -1,3 +1,5 @@
+// fetch data from api
+
 import React, { useEffect, useState } from "react";
 
 const FetchData: React.FC = (): JSX.Element => {
