@@ -1,0 +1,64 @@
+# Ignore node_modules directory (handled separately)
+node_modules
+
+# Ignore npm's package-lock.json or yarn's yarn.lock file
+package-lock.json
+yarn.lock
+
+# Ignore any local .env files
+.env*
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.vspscc
+*_i.c
+*_p.c
+*.pidb
+*.log
+.DS_Store
+
+# Ignore build artifacts and compiled output
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+/tmp/
+/logs/
+/coverage/
+
+# Ignore any temporary files
+*.tmp
+*.bak
+*.cache
+
+# Ignore testing and development files
+/tests/
+/test/
+/*.config.js
+/jest.config.js
+/karma.conf.js
+/tsconfig.json
+
+# Ignore documentation
+/docs/
+/doc/
+
+# Ignore any configuration files that are not needed for Docker
+.gitignore
+.editorconfig
+.eslintignore
+.eslintcache
+.eslint.js
+.prettierignore
+.prettierrc
+.stylelintignore
+.stylelintrc
+.babelrc
