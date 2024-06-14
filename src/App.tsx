@@ -1,5 +1,6 @@
 import Counter from "./pages/counter";
 import DisplayList from "./pages/displayList";
+import FetchData from "./pages/fetchData";
 import Form from "./pages/form";
 import ToggleSwitch from "./pages/toggleSwitch";
 
@@ -9,7 +10,8 @@ const App: React.FC = () => {
       {/* <Counter /> */}
       {/* <Form /> */}
       {/* <DisplayList /> */}
-      <ToggleSwitch />
+      {/* <ToggleSwitch /> */}
+      <FetchData />
     </div>
   );
 };
