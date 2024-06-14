@@ -2,6 +2,7 @@ import Counter from "./pages/counter";
 import DisplayList from "./pages/displayList";
 import FetchData from "./pages/fetchData";
 import Form from "./pages/form";
+import Timer from "./pages/timer";
 import ToggleSwitch from "./pages/toggleSwitch";
 
 const App: React.FC = () => {
@@ -11,7 +12,8 @@ const App: React.FC = () => {
       {/* <Form /> */}
       {/* <DisplayList /> */}
       {/* <ToggleSwitch /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <Timer />
     </div>
   );
 };
